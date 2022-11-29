@@ -8,21 +8,23 @@
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<!-- modif<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" >
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.css" > 
-
+<!-- Load the stylesheet that will reference the LCP image. -->
+<!-- Preload the LCP image with a high fetchpriority so it starts loading with the stylesheet. -->
+	<link rel="preload" fetchpriority="high" as="image" href="img/agence-la-panthere.webp" type="image/webp">
 	<!-- modif <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">-->
 	<script src="https://kit.fontawesome.com/fcc853d552.js" crossorigin="anonymous" defer></script> <!-- modif ajout cdn-->
 	
 	
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>  <!-- modif ajout cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>   <!-- modif ajout library externe-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script> <!-- modif ajout cdn-->
     
 	<!-- modif<script src="./js/jquery-2.1.0.js">defer</script>-->
 	<!-- modif<script src="./js/bootstrap.js"></script>-->
 	<script src="./js/blocs.js" defer></script>								<!-- modif ajout defer -->
-	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<!--<script src="./js/jquery.touchSwipe.js" defer></script> -->
 	<!-- modif<script src="./js/gmaps.js" defer></script>               modif fichier n'existe pas  pb -->
 
     <title>La Panthère, Agence design web Lyon et Paris</title>
